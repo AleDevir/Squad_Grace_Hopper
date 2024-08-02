@@ -1,4 +1,5 @@
-'''Escreva um script que pergunta ao usuário se ele deseja converter
+'''
+Escreva um script que pergunta ao usuário se ele deseja converter
 uma temperatura de grau Celsius para Fahrenheit ou vice-versa. Para
 cada opção, crie uma função.
 
