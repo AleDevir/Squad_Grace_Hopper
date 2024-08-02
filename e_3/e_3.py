@@ -39,6 +39,4 @@ def menu():
         print(f"{fahrenheit}°F é igual a {celsius:.2f}°C")
     else:
         print("Opção inválida. Por favor, escolha 1 ou 2.")
-
-# Chama a função do menu para iniciar o programa
 menu()
