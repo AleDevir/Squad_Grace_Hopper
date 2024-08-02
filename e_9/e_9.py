@@ -1,3 +1,4 @@
+
 '''
 exercicio 9 do Desafio 2 - O programa deve calcular e apresentar a quantidade de números pares e
 ímpares inseridos. O processo de leitura deve ser encerrado quando o usuário informar o valor zero. 
@@ -84,13 +85,17 @@ def calcular_quantidade_de_numeros_pares_e_impares() -> list:
     '''
     quantidade_de_numeros_pares = 0
     quantidade_de_numeros_impares = 0
+
     numeros = obter_numeros()
 
     for numero in numeros:
+        if numero < 0:
+            continue
         if numero  % 2 == 0:
             quantidade_de_numeros_pares += 1
         else:
             quantidade_de_numeros_impares +=1
+
     print(bright_amarelo(f'''
         \n\tQuantidade de números pares digitados: {quantidade_de_numeros_pares}
         \n\tQuantidade de números impares digitados: {quantidade_de_numeros_impares}
