@@ -1,6 +1,6 @@
 '''Criar um programa em Python que solicite três números ao usuário, utilize
 estruturas condicionais para determinar o maior entre eles e apresente o
-resultado.'''
+resultado!'''
 
 numero1 = float(input("Digite o primeiro número: "))
 numero2 = float(input("Digite o segundo número: "))
